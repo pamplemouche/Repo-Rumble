@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f0f0; }
+      .login-container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+      input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+      button { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; width: 100%; font-size: 16px; }
+      button:hover { background-color: #45a049; }
+      #message { color: red; margin-top: 10px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Connexion</h2>
+      <input type="text" id="username" placeholder="Nom d'utilisateur">
+      <input type="password" id="password" placeholder="Mot de passe">
+      <button onclick="checkLogin()">Se connecter</button>
+      <p id="message"></p>
+    </div>
+
+    <script>
+      function checkLogin() {
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        google.script.run
+          .withSuccessHandler(function(response) {
+            document.getElementById('message').innerText = response;
+            if (response === 'Connexion réussie !') {
+              // Redirection ou autre action après connexion
+              alert('Bienvenue !');
+              // window.location.href = 'URL_DE_TA_PAGE_APRES_CONNEXION'; // Exemple de redirection
+            }
+          })
+          .verifyUser(username, password);
+      }
+    </script>
+  </body>
+</html>

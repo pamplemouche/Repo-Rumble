@@ -1,5 +1,5 @@
 // Dans ton fichier script.js qui est lié à ton index.html externe
-const apiUrl = 'https://script.google.com/macros/s/AKfycbywPIpGQ4IDYC-rlg5_bx5Qw8fE6hENRKaZVUPAX_IMMyS1uhSBDmzqOWa4TpFtgdF8Tg/exec'; // L'URL que tu as copiée après le déploiement
+const apiUrl = 'https://script.google.com/macros/s/AKfycbw3Bt_Qh_kjTFiqp1vMWcdEjFcmFe8ALGvtitmMbtIWulymgMs71G4Y-hE1NRCXw35njw/exec'; // L'URL que tu as copiée après le déploiement
 
 async function envoyerDonneesAAppScript(data) {
     try {

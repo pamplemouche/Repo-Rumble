@@ -1,61 +1,26 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const signupForm = document.getElementById('signupForm');
-    const messageDiv = document.getElementById('message');
+// Dans ton fichier script.js qui est lié à ton index.html externe
+const apiUrl = 'TON_URL_API_APP_SCRIPT_ICI'; // L'URL que tu as copiée après le déploiement
 
-    signupForm.addEventListener('submit', async (e) => {
-        e.preventDefault(); // Empêche le rechargement de la page par défaut
+async function envoyerDonneesAAppScript(data) {
+    try {
+        const response = await fetch(apiUrl, {
+            method: 'POST', // Ou 'GET' si c'est une requête simple, mais POST c'est mieux pour envoyer des données
+            mode: 'no-cors', // Peut être nécessaire mais peut aussi bloquer si App Script ne renvoie pas les bons headers CORS
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
 
-        const username = document.getElementById('username').value;
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-        const confirmPassword = document.getElementById('confirmPassword').value;
+        // Ici, la gestion de la réponse est plus complexe à cause des CORS.
+        // Souvent, tu ne peux pas lire le contenu de la réponse si tu as 'no-cors'.
+        // C'est pourquoi cette méthode est moins recommandée pour les débutants.
+        console.log('Requête envoyée à App Script. Vérifie ta feuille !');
 
-        if (password !== confirmPassword) {
-            showMessage('Les mots de passe ne correspondent pas !', 'error');
-            return;
-        }
-
-        // --- Hachage du mot de passe (super important pour la sécurité !) ---
-        // On utilise l'API Web Cryptography pour ça. C'est du sérieux !
-        try {
-            const encoder = new TextEncoder();
-            const data = encoder.encode(password);
-            const hashBuffer = await crypto.subtle.digest('SHA-256', data); // SHA-256, c'est une bonne base
-            const hashArray = Array.from(new Uint8Array(hashBuffer));
-            const hashedPassword = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-
-            // Maintenant, on envoie tout à Google App Script
-            google.script.run
-                .withSuccessHandler(onSuccess)
-                .withFailureHandler(onError)
-                .processSignup({
-                    username: username,
-                    email: email,
-                    password: hashedPassword // On envoie le mot de passe haché !
-                });
-
-        } catch (error) {
-            console.error('Erreur lors du hachage du mot de passe :', error);
-            showMessage('Erreur interne lors de l\'inscription.', 'error');
-        }
-    });
-
-    function onSuccess(response) {
-        if (response.success) {
-            showMessage(response.message, 'success');
-            signupForm.reset(); // On vide le formulaire après l'inscription
-        } else {
-            showMessage(response.message, 'error');
-        }
+    } catch (error) {
+        console.error('Erreur lors de l\'appel à App Script :', error);
     }
+}
 
-    function onError(error) {
-        console.error('Erreur App Script :', error);
-        showMessage('Erreur lors de la communication avec le serveur. Réessaie !', 'error');
-    }
-
-    function showMessage(msg, type) {
-        messageDiv.textContent = msg;
-        messageDiv.className = `message ${type}`;
-    }
-});
+// Exemple d'utilisation
+// envoyerDonneesAAppScript({ nom: 'Alice', email: 'alice@example.com' });

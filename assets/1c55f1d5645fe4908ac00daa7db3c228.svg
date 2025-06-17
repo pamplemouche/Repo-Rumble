@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="21.147465444026107" height="38.83876488250267" viewBox="0.6607672093223957 -0.552132773606834 21.147465444026107 38.83876488250267">
+  <defs>
+    <radialGradient id="grad_1" cx="0.9096" cy="0.7912" r="1.18248">
+      <stop offset="0" stop-color="#086BE7" stop-opacity="1"/>
+      <stop offset="1" stop-color="#086BE7" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_2" cx="0.0795" cy="0.7349" r="1.19665">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_3" cx="0.015600000000000001" cy="0.35" r="1.27972">
+      <stop offset="0" stop-color="#763320" stop-opacity="1"/>
+      <stop offset="1" stop-color="#763320" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_4" cx="0.8064" cy="0.938" r="1.2194">
+      <stop offset="0" stop-color="#A7AAD5" stop-opacity="1"/>
+      <stop offset="1" stop-color="#A7AAD5" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_5" cx="0.6838" cy="0.4266" r="0.88894">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_6" cx="0.9419" cy="0.2706" r="1.22447">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_7" cx="0.5999" cy="0.5252" r="0.7798700000000001">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_8" cx="0.6774" cy="0.3119" r="0.89453">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_9" cx="0.7935" cy="0.9128000000000001" r="1.18664">
+      <stop offset="0" stop-color="#D3D0F2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#D3D0F2" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_10" cx="0.7354" cy="0.9587" r="1.24631">
+      <stop offset="0" stop-color="#0ED1FA" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0ED1FA" stop-opacity="1"/>
+    </radialGradient>
+  <radialGradient id="grad_5-.3150738050578621,0.10096888634758372,-0.07339104867730972,0.22919773352263917,-90.28206346929073,-59.02173957824707" cx="14.2478" cy="7.3157" r="3.7493" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient><radialGradient id="grad_7-.6263680295438618,0.5211875670612294,-0.020952966261719275,0.06631574643451099,-568.8853367120028,-193.76141697466375" cx="16.3634" cy="3.4206" r="13.7419" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E908A6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E908A6" stop-opacity="1"/>
+    </radialGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.3430773396976292">
+    <path id="ID0.3179014674387872" fill="#086BE7" stroke="url(#grad_1)" stroke-width="2.6073354107492426" d="M 9.6243 4.705 L 19.0856 7.737 L 15.2054 19.8638 L 5.7441 16.8318 L 9.6243 4.705 Z "/>
+    <path id="ID0.41625609807670116" fill="#E908A6" stroke="url(#grad_2)" stroke-width="2.9501934758882316" d="M 2.6824 35.5745 L 12.0289 6.8143 L 15.8038 8.0411 L 6.4573 36.8013 L 2.6824 35.5745 Z "/>
+    <path id="ID0.41625609807670116" fill="#5B595A" stroke="url(#grad_3)" stroke-width="2.970665669856185" d="M 4.7799 28.7119 L 13.2295 2.7116 L 17.5437 4.1136 L 9.0941 30.114 L 4.7799 28.7119 Z "/>
+    <path id="ID0.3179014674387872" fill="#A7AAD5" stroke="url(#grad_4)" stroke-width="1.5642040286717365" d="M 11.004 1.1181 L 20.0711 4.0238 L 11.2133 31.6827 L 2.1461 28.777 L 11.004 1.1181 Z "/>
+    <path id="ID0.3179014674387872" fill="url(#grad_5-.3150738050578621,0.10096888634758372,-0.07339104867730972,0.22919773352263917,-90.28206346929073,-59.02173957824707)" stroke="url(#grad_6)" stroke-width="0.5785915012883064" d="M 13.6289 4.9827 L 15.4405 5.5633 L 13.9874 10.1014 L 12.1757 9.5209 L 13.6289 4.9827 Z "/>
+    <path id="ID0.3179014674387872" fill="url(#grad_7-.6263680295438618,0.5211875670612294,-0.020952966261719275,0.06631574643451099,-568.8853367120028,-193.76141697466375)" stroke="url(#grad_8)" stroke-width="1.2086244602271772" d="M 10.9713 0.9332 L 20.3229 3.93 L 19.908 5.2431 L 10.5564 2.2463 L 10.9713 0.9332 Z "/>
+    <path id="ID0.3179014674387872" fill="#D3D0F2" stroke="url(#grad_9)" stroke-width="2.508586985744508" d="M 4.5648 20.6519 L 14.0262 23.6839 L 11.6077 31.2496 L 2.1463 28.2176 L 4.5648 20.6519 Z "/>
+    <path id="ID0.3179014674387872" fill="#0ED1FA" stroke="url(#grad_10)" stroke-width="0.5195991224086929" d="M 7.1555 25.7555 L 8.9672 26.3361 L 8.0028 29.3489 L 6.1911 28.7683 L 7.1555 25.7555 Z "/>
+  </g>
+</svg>

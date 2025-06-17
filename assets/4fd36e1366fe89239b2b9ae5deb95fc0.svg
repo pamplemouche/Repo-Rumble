@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="88.0999984741211" height="88.1500015258789" viewBox="0.5 0.34999990463256836 88.0999984741211 88.1500015258789">
+  <defs>
+    <radialGradient id="grad_1" cx="0.718" cy="0.9201999999999999" r="1.19626">
+      <stop offset="0" stop-color="#8D4F01" stop-opacity="1"/>
+      <stop offset="1" stop-color="#8D4F01" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_2" cx="0.718" cy="0.9201999999999999" r="1.19626">
+      <stop offset="0" stop-color="#8D4F01" stop-opacity="1"/>
+      <stop offset="1" stop-color="#8D4F01" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_3" cx="0.718" cy="0.9201999999999999" r="1.19626">
+      <stop offset="0" stop-color="#8D4F01" stop-opacity="1"/>
+      <stop offset="1" stop-color="#8D4F01" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.4136555320583284">
+    <g id="ID0.8624362424015999">
+      <path id="ID0.8845612099394202" fill="#CC7700" stroke="url(#grad_1)" stroke-width="6" d="M 3.5 44.5 L 44.5 44.5 L 44.5 85.5 L 3.5 85.5 L 3.5 44.5 Z "/>
+      <path id="ID0.6530268718488514" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 5.25 46.125 L 42.75 84.375 "/>
+      <path id="ID0.01524581853300333" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 4.75 83.875 L 42.375 46.875 "/>
+    </g>
+    <g id="ID0.8624362424015999">
+      <path id="ID0.8845612099394202" fill="#CC7700" stroke="url(#grad_2)" stroke-width="6" d="M 3.55 3.4 L 44.55 3.4 L 44.55 44.4 L 3.55 44.4 L 3.55 3.4 Z "/>
+      <path id="ID0.6530268718488514" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 5.3 5.025 L 42.8 43.275 "/>
+      <path id="ID0.01524581853300333" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 4.8 42.775 L 42.425 5.775 "/>
+    </g>
+    <g id="ID0.8624362424015999">
+      <path id="ID0.8845612099394202" fill="#CC7700" stroke="url(#grad_3)" stroke-width="6" d="M 44.6 3.35 L 85.6 3.35 L 85.6 44.35 L 44.6 44.35 L 44.6 3.35 Z "/>
+      <path id="ID0.6530268718488514" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 46.35 4.975 L 83.85 43.225 "/>
+      <path id="ID0.01524581853300333" fill="none" stroke="#8D4F01" stroke-width="6" stroke-linecap="round" d="M 45.85 42.725 L 83.475 5.725 "/>
+    </g>
+  </g>
+</svg>

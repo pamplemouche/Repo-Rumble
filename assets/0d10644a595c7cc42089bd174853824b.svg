@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="102.3499984741211" height="102.3499984741211" viewBox="-4.149999976158142 -4.899999998509884 102.3499984741211 102.3499984741211">
+  <defs>
+    <radialGradient id="grad_1" cx="0.5138" cy="0.49810000000000004" r="0.66794">
+      <stop offset="0" stop-color="#FFBD24" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFBD24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="grad_2" cx="0.5047" cy="0.5047" r="0.6561100000000001">
+      <stop offset="0" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#666666" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_3" cx="0.1981" cy="0.8301000000000001" r="1.07913">
+      <stop offset="0" stop-color="#663B00" stop-opacity="1"/>
+      <stop offset="1" stop-color="#995900" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_4" cx="0.5267000000000001" cy="0.5045000000000001" r="0.68471">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFBD24" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_5" cx="0.5851" cy="0.8" r="1.04">
+      <stop offset="0" stop-color="#341D00" stop-opacity="1"/>
+      <stop offset="1" stop-color="#341D00" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_6" cx="0.5851" cy="0.8" r="1.04">
+      <stop offset="0" stop-color="#341D00" stop-opacity="1"/>
+      <stop offset="1" stop-color="#341D00" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_7" cx="0.5851" cy="0.8" r="1.04">
+      <stop offset="0" stop-color="#341D00" stop-opacity="1"/>
+      <stop offset="1" stop-color="#341D00" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_8" cx="0.5851" cy="0.8" r="1.04">
+      <stop offset="0" stop-color="#341D00" stop-opacity="1"/>
+      <stop offset="1" stop-color="#341D00" stop-opacity="1"/>
+    </radialGradient>
+  <radialGradient id="grad_1-,0,0,1,-207,-147.4" cx="48.2994" cy="46.0995" r="61.6843" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFBD24" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFBD24" stop-opacity="0"/>
+    </radialGradient><radialGradient id="grad_2-,0,0,1,-197.5,-132.45" cx="47.2021" cy="46.2521" r="28.2127" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#666666" stop-opacity="1"/>
+    </radialGradient><radialGradient id="grad_4-,0,0,1,-191,-133.2" cx="47.9455" cy="46.1386" r="24.8892" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFBD24" stop-opacity="1"/>
+    </radialGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <path id="ID0.9757841816172004" fill="url(#grad_1-,0,0,1,-207,-147.4)" stroke="none" d="M 47.025 0.1 C 59.764 0.1 71.308 5.274 79.667 13.633 C 88.026 21.992 93.2 33.536 93.2 46.275 C 93.2 59.014 88.026 70.558 79.667 78.917 C 71.308 87.276 59.764 92.45 47.025 92.45 C 34.286 92.45 22.742 87.276 14.383 78.917 C 6.024 70.558 0.85 59.014 0.85 46.275 C 0.85 33.536 6.024 21.992 14.383 13.633 C 22.742 5.274 34.286 0.1 47.025 0.1 Z " stroke-width="1"/>
+  <g id="ID0.6651302631944418">
+    <path id="ID0.23164784349501133" fill="url(#grad_2-,0,0,1,-197.5,-132.45)" stroke="url(#grad_3)" stroke-width="10" d="M 25.5 24.55 L 68.5 24.55 L 68.5 67.55 L 25.5 67.55 L 25.5 24.55 Z "/>
+    <path id="ID0.6126432055607438" fill="url(#grad_4-,0,0,1,-191,-133.2)" stroke="#663B00" stroke-width="2" d="M 28.8 27.8 L 65.15 27.8 L 65.15 64.15 L 28.8 64.15 L 28.8 27.8 Z "/>
+    <path id="ID0.038262210320681334" fill="#663B00" stroke="url(#grad_5)" stroke-width="2" d="M 24.2 23.05 L 28.95 23.05 L 28.95 27.8 L 24.2 27.8 L 24.2 23.05 Z "/>
+    <path id="ID0.038262210320681334" fill="#663B00" stroke="url(#grad_6)" stroke-width="2" d="M 24.2 64.1 L 28.95 64.1 L 28.95 68.85 L 24.2 68.85 L 24.2 64.1 Z "/>
+    <path id="ID0.038262210320681334" fill="#663B00" stroke="url(#grad_7)" stroke-width="2" d="M 65.15 23.2 L 69.9 23.2 L 69.9 27.95 L 65.15 27.95 L 65.15 23.2 Z "/>
+    <path id="ID0.038262210320681334" fill="#663B00" stroke="url(#grad_8)" stroke-width="2" d="M 65.25 63.9 L 70 63.9 L 70 68.65 L 65.25 68.65 L 65.25 63.9 Z "/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="27.182730197906494" height="17.8141827583313" viewBox="0.25155413150787354 0.20695316791534424 27.182730197906494 17.8141827583313">
+  <defs>
+    <radialGradient id="grad_1" cx="0.8237000000000001" cy="0.3935" r="1.0708100000000003">
+      <stop offset="0" stop-color="#88C9E2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#A1E2DB" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="grad_2" cx="0.9077" cy="0.2507" r="1.18001">
+      <stop offset="0" stop-color="#88C9E2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#A1E2DB" stop-opacity="1"/>
+    </radialGradient>
+  <radialGradient id="grad_1-.034883737564087,0,0,1.034883737564087,-261.34999999999997,-179.15" cx="22.0662" cy="7.4372" r="22.1011" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#88C9E2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#A1E2DB" stop-opacity="1"/>
+    </radialGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.47404374508187175">
+    <path id="ID0.19798457762226462" fill="url(#grad_1-.034883737564087,0,0,1.034883737564087,-261.34999999999997,-179.15)" stroke="url(#grad_2)" stroke-width="2.069767475128174" stroke-linecap="round" d="M 14.1361 1.282 C 17.5056 1.1454 21.3316 1.2644 24.1744 3.1448 C 25.9379 4.2821 26.3156 7.0235 26.3994 9.1471 C 26.3146 11.2696 25.9296 13.9986 24.1744 15.1494 C 21.3212 17.0019 17.5046 17.0505 14.1361 16.9605 C 11.3036 16.8849 8.3397 16.1709 5.9429 14.663 C 4.0066 13.445 1.8375 11.4984 1.8209 9.2506 C 1.8375 6.9055 3.9838 4.8358 5.9429 3.5794 C 8.3272 2.0499 11.3056 1.3979 14.1361 1.282 Z "/>
+    <path id="ID0.5945806754752994" fill="#F8FFEA" stroke="#F8FFEA" stroke-width="1" stroke-linecap="round" d="M 4.65 3.7 C 5.085 3.388 3.785 5.676 4.4 6 C 5.301 6.466 7.352 4.916 7.4 5.35 C 7.45 5.808 4.208 7.386 4.5 8.2 C 4.908 9.011 7.47 8.16 8.8 8.6 C 9.239 8.745 10.008 9.399 9.65 9.7 C 8.461 10.733 5.301 10.48 5.3 11.35 C 5.3 12.38 9.658 13.319 9.65 13.5 C 9.641 13.679 6.299 12.271 5 12.85 C 4.375 13.071 6.249 15.195 5.8 15.1 C 5.06 14.937 3.127 13.441 2.3 12.1 C 1.582 10.947 1.042 9.435 1.4 8 C 1.841 6.265 3.633 4.432 4.65 3.7 Z "/>
+  </g>
+</svg>
